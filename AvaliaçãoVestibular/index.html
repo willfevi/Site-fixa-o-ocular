@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixação Ocular</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fixação Ocular</h1>
+        <p>Assista aos vídeos e verifique seu progresso.</p>
+    </header>
+
+    <main>
+        <div id="congratulations" class="congratulations"></div>
+
+        <section class="video-quiz" id="level1">
+            <div id="level1-image" class="video-container">
+                <img src="https://i.postimg.cc/ryWB3NLQ/nivel1.png" alt="Nível 1">
+                <button class="play-button" onclick="playVideo('video1.mp4', 1)">Jogar</button>
+            </div>
+            <video controls id="video1" style="display: none;">
+                <source src="video1.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <button class="pass-button" style="display: none;" onclick="nextLevel(1)">Passei!</button>
+            <button class="fail-button" style="display: none;" onclick="failLevel()">Reprovei!</button>
+        </section>
+
+        <section class="video-quiz" id="level2">
+            <div id="level2-image" class="video-container">
+                <img src="https://i.postimg.cc/5NQ6ZG2D/nivel2.png" alt="Nível 2">
+                <button class="play-button" onclick="playVideo('video2.mp4', 2)">Jogar</button>
+            </div>
+            <video controls id="video2" style="display: none;">
+                <source src="video2.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <button class="pass-button" style="display: none;" onclick="nextLevel(2)">Passei!</button>
+            <button class="fail-button" style="display: none;" onclick="failLevel()">Reprovei!</button>
+        </section>
+
+        <section class="video-quiz" id="level3">
+            <div id="level3-image" class="video-container">
+                <img src="https://i.postimg.cc/y6MZYBt7/nivel3.png" alt="Nível 3">
+                <button class="play-button" onclick="playVideo('video3.mp4', 3)">Jogar</button>
+            </div>
+            <video controls id="video3" style="display: none;">
+                <source src="video3.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <button class="pass-button" style="display: none;" onclick="nextLevel(3)">Passei!</button>
+            <button class="fail-button" style="display: none;" onclick="failLevel()">Reprovei!</button>
+        </section>
+
+        <section class="video-quiz" id="level4">
+            <div id="level4-image" class="video-container">
+                <img src="https://i.postimg.cc/RV00cZ87/nivel4.png" alt="Nível 4">
+                <button class="play-button" onclick="playVideo('video4.mp4', 4)">Jogar</button>
+            </div>
+            <video controls id="video4" style="display: none;">
+                <source src="video4.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <button class="pass-button" style="display: none;" onclick="nextLevel(4)">Passei!</button>
+            <button class="fail-button" style="display: none;" onclick="failLevel()">Reprovei!</button>
+        </section>
+
+        <section class="video-quiz" id="level5">
+            <div id="level5-image" class="video-container">
+                <img src="https://i.postimg.cc/8P8SCPGk/nivel5.png" alt="Nível 5">
+                <button class="play-button" onclick="playVideo('video5.mp4', 5)">Jogar</button>
+            </div>
+            <video controls id="video5" style="display: none;">
+                <source src="video5.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <button class="pass-button" style="display: none;" onclick="nextLevel(5)">Passei!</button>
+            <button class="fail-button" style="display: none;" onclick="failLevel()">Reprovei!</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024, Trabalho de Gamificação de Fixação Ocular.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
