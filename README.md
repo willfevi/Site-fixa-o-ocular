@@ -30,6 +30,7 @@ A gamificação, com elementos de progresso e congratulações, mantém os usuá
 
 Ao fortalecer a fixação ocular antes de uma viagem, os usuários podem experimentar menos enjoo, tornando suas viagens mais agradáveis. Isso é especialmente útil para pessoas que frequentemente viajam de carro, barco, avião ou trem.
 
+# O projeto conta atualmente com 5 fases dispostas como no exemplo abaixo :
 ## Imagens
 
 <img src="/1.png" width="700px">&emsp;
@@ -37,3 +38,4 @@ Ao fortalecer a fixação ocular antes de uma viagem, os usuários podem experim
 <img src="/3.png" width="700px">&emsp;
 <img src="/4.png" width="700px">&emsp;
 <img src="/5.png" width="700px">&emsp;
+
